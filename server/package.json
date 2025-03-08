@@ -1,0 +1,25 @@
+{
+  "name": "my-calculator-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "build": "cd ../client && npm install && npm run build",
+    "deploy": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "fs-extra": "^10.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "path": "^0.12.7",
+    "stripe": "^17.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

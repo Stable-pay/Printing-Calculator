@@ -1,0 +1,34 @@
+{
+  "baseFixedCost": 1997,
+  "baseCostPerExtra": 300,
+  "newPaperSizes": [
+    "19.5x28",
+    "14x19.5",
+    "14x9.75",
+    "9.75x7",
+    "7x4.80"
+  ],
+  "specialSizes": [
+    "A2",
+    "17x22",
+    "19.5x28"
+  ],
+  "laminationRates": {
+    "Gloss BOPP": 1.8,
+    "Matt BOPP": 1.8,
+    "Gloss Thermal": 3.2,
+    "Matt Thermal": 3.2,
+    "Velvet": 11.25
+  },
+  "minimumLaminationCosts": {
+    "BOPP": 600,
+    "Thermal": 700,
+    "Velvet": 700
+  },
+  "spotUVRateVal": 2.5,
+  "spotUVFixedPerPlate": 3500,
+  "dripOffRateVal": 2.5,
+  "dripOffFixedPerPlate": 4500,
+  "coatingRate": 1.2,
+  "coatingMinimum": 1500
+}
